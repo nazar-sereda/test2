@@ -1,11 +1,36 @@
-
 <html>
 <head>
-<title></title>
+    <title></title>
     <script>
-        prompt("Enter your name", "your name")
+        prompt("Enter your name", "your name");
+
+        var a = 15;
+        var b = 45;
+        var names = ["Taras", "Nazar", "Yana"];
+
+        for (var i=0; i<names.length; i++){
+            document.write("<br>" + names[i]);
+        }
+
+        while (a < b) {
+            document.write("  <br>" + a + "<br/><br/>");
+            a++;
+
+        }
+        document.write("<hr/>");
+        var a1=15;
+        while (a1 < b) {
+
+            if (a1 % 2 === 1) {
+                document.write("<br>" + a1)
+
+            }
+            a1++;
+
+        }
 
     </script>
+
 </head>
 <body>
 
